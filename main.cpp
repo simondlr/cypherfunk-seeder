@@ -343,7 +343,7 @@ extern "C" void* ThreadStats(void*) {
 }
 
 //TODO: We don't have any other seeds yet. Add them in next revision.
-static const string mainnet_seeds[] = {"seed.dogecoin.com", "seed.mophides.com", "seed.dglibrary.org", ""};
+static const string mainnet_seeds[] = {"seed.dogecoin.com", "seed.mophides.com", "seed.dglibrary.org", "seed.dogechain.info", ""};
 static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
