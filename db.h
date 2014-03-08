@@ -12,7 +12,7 @@
 
 #define MIN_RETRY 1000
 
-#define REQUIRE_VERSION 60003 //TODO: Should be upped, when adoption of newer version is high enough.
+#define REQUIRE_VERSION 70002
 
 static inline int GetRequireHeight(const bool testnet = fTestNet)
 {
