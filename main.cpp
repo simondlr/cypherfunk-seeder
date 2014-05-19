@@ -342,7 +342,7 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"seed_us.thecypherfunks.com","seed_eu.thecypherfunks.com"};
+static const string mainnet_seeds[] = {"seed-us.thecypherfunks.com","seed-eu.thecypherfunks.com", ""};
 static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
